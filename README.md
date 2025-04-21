@@ -1,11 +1,73 @@
-# drug-decision-tree
-Creating decision tree to help doctors choosing medication for patients
+Drug Decision Tree
 
-Choosing the right medication for a patient can be a complex process. Factors such as age, sex, blood pressure, cholesterol levels and sodium-to-potassium ratios are some example of factors which determine the decision for a treatment. 
-With so many data to consider, decision-making using machine learning tools such as decision trees may come in handy.
+Using Decision Trees to Support Medication Selection
 
-In this project, I am exploring how decision trees can help doctors of pharmacists predict the most suitable drug for a patient. 
-The dataset I’m working will include patient’s information : age, sex, blood pressure, cholesterol, and sodium-to-potassium ratio.
+Choosing the right medication for a patient can be a complex process. Factors such as age, sex, blood pressure, cholesterol levels, and sodium-to-potassium ratio play a crucial role in determining the appropriate treatment. With so many variables to consider, machine learning tools like decision trees can support more informed, data-driven decisions.
 
-Based on those information, the decision tree model will determine the appropriate medication from five options : Drug A, Drug B, Drug C, Drug X, or Drug Y. 
-This project will also provide a visual breakdown of the decision-making process, to make it easier to interpret the reason of a specific drug is recommended for a particular patient. 
+In this project, I explore how decision tree models can assist doctors and pharmacists in predicting the most suitable drug for a patient based on clinical characteristics.
+
+
+---
+
+Dataset
+
+The dataset includes the following patient attributes:
+
+Age
+
+Sex
+
+Blood Pressure (Low, Normal, High)
+
+Cholesterol (Normal, High)
+
+Sodium-to-Potassium Ratio
+
+
+The target variable is the recommended medication, chosen from one of the following:
+
+Drug A
+Drug B
+Drug C
+Drug X
+Drug Y
+
+
+
+---
+
+Objectives
+
+Build and train a decision tree classifier using clinical features
+
+Evaluate the model's performance
+
+Visualize the decision-making process for interpretability
+
+
+
+---
+
+Tools & Libraries
+
+Python
+
+pandas
+
+scikit-learn
+
+matplotlib / seaborn
+
+graphviz (for decision tree visualization)
+
+
+
+---
+
+Project Highlights
+
+A simple and interpretable model to support clinical decision-making
+
+Visual representation of the decision tree to explain treatment recommendations
+
+An example of applying machine learning in healthcare scenarios
